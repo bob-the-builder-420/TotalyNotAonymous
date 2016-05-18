@@ -33,10 +33,10 @@ goto home
 
 :Cite
 cls
-echo It's gone and the school
-echo is to blame.
+echo It's gone and we don't
+echo know when it will be back
 echo.
-echo            -The Guy Who Made This
+echo            -The People Who Made This
 pause>nul
 goto home
 
