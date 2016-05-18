@@ -15,14 +15,20 @@ echo.
 echo 1)Files
 echo 2)Web Cite
 echo 3)IP Hacker
-echo 4)Close
+echo 4)Check for Updates
+echo 5)Close
 echo.
 set/p "cho=You:"
 if %cho%==1 goto Files
 if %cho%==2 goto Cite
 if %cho%==3 goto IP
-if %cho%==4 goto End
-if %cho%==5 goto Wow
+if %cho%==4 goto Update
+if %cho%==5 goto End
+if %cho%==6 goto Wow
+goto home
+
+:UPDATE
+start https://github.com/bob-the-builder-420/TotalyNotAonymous
 goto home
 
 :Cite
@@ -156,14 +162,12 @@ cd %appdata%>nul
 echo.
 echo 1)Files
 echo 2)Change Password
-echo 3)Check for Updates
-echo 4)Go Back
+echo 3)Go Back
 echo.
 set/p "cho=You:"
 if %cho%==1 goto CONFIRM
 if %cho%==2 goto PASS
-if %cho%==3 goto Update
-if %cho%==4 goto DEFFD
+if %cho%==3 goto DEFFD
 goto Home3
 
 :CONFIRM
@@ -230,10 +234,6 @@ cls
 echo The password can be changed in a file inside of the locker, good luck finding it
 pause>null
 goto Home3
-
-:UPDATE
-start http://bit.ly/1Sy1vn7
-goto home3
 
 :FAIL
 echo Bot:Invalid password
