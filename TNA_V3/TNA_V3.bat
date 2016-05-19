@@ -127,7 +127,7 @@ echo 4)Go Back
 echo.
 set/p "cho=You:"
 if %cho%==1 goto chatbots
-if %cho%==2 start Data\battleship\battle_ship.py
+if %cho%==2 start Data\battleship\battle_ship.exe
 if %cho%==3 goto wip
 if %cho%==4 goto home
 goto home2
