@@ -9,7 +9,7 @@ cls
 
 :HOME
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo 1)Files
@@ -42,7 +42,7 @@ goto home
 
 :IP
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo 1)Enter a I.P.
@@ -57,7 +57,7 @@ goto IP
 
 :IPEN
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 set /p IP=Add the I.P.:
@@ -67,7 +67,7 @@ goto IP
 
 :IPEN2
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo Do you want to add other options
@@ -81,7 +81,7 @@ goto IPEN2
 
 :IPEN2.1
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 set /p Byt=How many bytes, cant be anyting over 2999:
@@ -97,18 +97,18 @@ pause
 
 :IPLST
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo pick a IP and type it in 
-type Data\Log.dat
+type Data\dats\Log.dat
 echo.
 set /p IP2=you:
 goto IPEN2
 
 :Wow
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo You found the secret menu, Good Job (pat your self on the back)
@@ -117,7 +117,7 @@ goto Home2
 
 :HOME2
 cls
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo 1)Chat Bots
@@ -134,7 +134,7 @@ goto home2
 
 :chatbots
 cls 
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 echo.
 echo 1)Chatbot 27
@@ -157,7 +157,7 @@ cls
 :home3
 cls
 cd %~dp0>nul
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 cd %appdata%>nul
 echo.
@@ -210,7 +210,7 @@ goto Home3
 :UNLOCK
 cls
 cd %~dp0>nul
-type Data\ascii.dat
+type Data\dats\ascii.dat
 echo.
 cd "%appdata%\HTG Locker"
 echo.
