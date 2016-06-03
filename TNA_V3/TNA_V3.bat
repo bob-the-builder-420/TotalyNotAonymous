@@ -198,7 +198,7 @@ attrib +h +s qwerty.txt
 echo "First time setup..."
 echo "To open folder, use password "qwerty"
 pause
-goto Home
+goto Home3
 
 :LOCK
 subst Z: /D
